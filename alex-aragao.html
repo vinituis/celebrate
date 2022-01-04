@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- CSS -->
+    <link rel="stylesheet" href="./css/style.css">
+    <!-- FontAwesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+
+</head>
+<body>
+
+    <canvas id="my-canvas"></canvas>
+
+        <div class="main-header">
+            <div class="center-div">
+                <p>Feliz anivesário</p>
+                <h3>Alex Aragão</h3>
+            </div>
+        </div>
+    
+    <script type="text/javascript" src="./js/confetti.js"></script>
+    
+    <script>
+        var confettiElement = document.getElementById('my-canvas');
+        var confettiSettings = { target: confettiElement };
+        var confetti = new ConfettiGenerator(confettiSettings);
+        confetti.render();
+    </script>
+</body>
+</html>
