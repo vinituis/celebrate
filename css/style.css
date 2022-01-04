@@ -63,3 +63,14 @@ html, body {
     font-size: 100px;
     color: var(--cor-texto-h);
 }
+
+@media only screen and (max-width:600px) {
+    
+    .center-div p {
+        font-size: 50%;
+    }
+
+    .center-div h3 {
+        font-size: 80%;
+    }
+}
